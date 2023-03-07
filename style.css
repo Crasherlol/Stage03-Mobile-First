@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--bg-color);
+
+
+}
+:root {
+    font-size: 62.5%;
+    --header-color: #8E9AAF;
+    --logoBG-color: #CBC0D3;
+    --p-color: #23053A;
+    --bg-color: #EFF1FF;
+    --picole-color:#FEEAFA;
+    --p-picole-color: #4A4E69;
+    
+}
+header{
+    width: 40.4rem;
+    height: 27.9rem;
+    background-color: var(--header-color);
+}
+.spaceCream{
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 4.0rem;
+    line-height: 3.4rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    width: 40.4rem;
+    height:4.9rem;
+    background-color: var(--logoBG-color);
+    text-align: center;
+    margin-top: 1.2rem;
+}
+header img{
+    margin-left: 12.4rem;
+    margin-top: 3.2rem;
+
+}
+.pLorem{
+font-family: 'Palanquin';
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 1.5rem;
+width: 30.5rem;
+height: 7.5rem;
+color: var(--p-color);
+margin-left: 5rem;
+margin-top: 1.5rem;
+}
+.cardsSorvete{
+    display: grid;
+    height: 150.2rem;
+    width: 40rem;
+    gap: 3.6rem;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+
+    animation-name: glow;
+    animation-duration: 500ms;
+   
+}
+
+.Paletas, .Shakes, .Massas, .Picoles{
+    width: 11.2rem;
+    height: 3.5rem;
+    background: var(--picole-color);
+    border-radius: 2.0rem;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+
+    color: var(--p-picole-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: pop;
+    animation-duration: 650ms;
+}
+.Paletas{
+    position: absolute;
+    top: 45rem;
+    left: 23rem;
+}
+.Shakes{
+    position: absolute;
+    top: 74rem;
+    left: 23rem;
+}
+.Massas{
+    position: absolute;
+    top: 123rem;
+    left: 23rem;
+}
+.Picoles{
+    position: absolute;
+    top: 152rem;
+    left: 23rem;
+}
+
+@keyframes glow {
+    0% {
+        opacity: 0;
+        transform: translatey(5rem);
+    }
+    10% {
+        opacity: 0.1;
+        transform: translatey(4.5rem);
+    }
+    20% {
+        opacity: 0.2;
+        transform: translatey(4rem);
+    }
+    30% {
+        opacity: 0.3;
+        transform: translatey(3.5rem);
+    }
+    40% {
+        opacity: 0.4;
+        transform: translatey(3rem);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translatey(2.5rem);
+    }
+    60% {
+        opacity: 0.6;
+        transform: translatey(2rem);
+    }
+    70% {
+        opacity: 0.7;
+        transform: translatey(1.5rem);
+    }
+    80% {
+        opacity: 0.8;
+        transform: translatey(1rem);
+    }
+    90% {
+        opacity: 0.9;
+        transform: translatey(0rem);
+    }
+
+    100%{
+        opacity: 1;
+        
+  }
+}
+
+@keyframes pop{
+    0% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    10% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    20% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    30% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    40% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    60% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    70% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    80% {
+        opacity: 0;
+        transform: translatey(-5rem);
+    }
+    90% {
+        opacity: 0.9;
+        transform: translatey(-2rem);
+    }
+
+    100%{
+        opacity: 1;
+        
+  }
+
+  }
